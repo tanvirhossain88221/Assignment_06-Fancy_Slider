@@ -48,7 +48,7 @@ const selectItem = (event, img) => {
     sliders.push(img);
     element.classList.toggle('added');
   } else {
-    sliders.pop(img);
+    sliders.delete(img);
     element.classList.toggle('added');
     // alert('Hey, Already added !')
   }
